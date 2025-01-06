@@ -52,7 +52,7 @@ button:hover {
 #formDiv {
     position: absolute;
     top: 180px;
-    width: 100%;
+
     left: 856px;
     display: none;
 }
@@ -67,8 +67,27 @@ button:hover {
     border: 2px solid black;
     padding: 20px;
     border-radius: 20px;
+    background-color: aliceblue;
 }
 
 .formBtn {
     margin-top: 10px;
+}
+
+.bookCard {
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#bookDisplay {
+    margin: 10px 100px 0 100px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 30px;
 }

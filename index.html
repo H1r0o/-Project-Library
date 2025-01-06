@@ -18,14 +18,14 @@
         <div id="formDiv">
             <form id="formBox">
                 <label for="bookTitle">Title: </label>
-                <input type="text" id="bookTitle">
+                <input type="text" id="bookTitle" required>
                 <label for="bookAuthor">Author: </label>
-                <input type="text" id="bookAuthor">
+                <input type="text" id="bookAuthor" required>
                 <label for="bookPages">Pages: </label>
-                <input type="number" id="bookPages">
+                <input type="number" id="bookPages" required>
                 <div>
-                    <button class="formBtn">Submit</button>
-                    <button class="formBtn">Cancel</button>
+                    <button class="formBtn" id="submitBook">Submit</button>
+                    <button class="formBtn" id="cancelBook">Cancel</button>
                 </div>
             </form>
         </div>
