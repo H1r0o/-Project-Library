@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#header,
+#logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#header {
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px;
+}
+
+#logo>img {
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 20px;
+}
+
+#btnSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+#btnSection>button {
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 102, 255, 0.822);
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#btnSection>button:hover {
+    background-color: rgba(73, 146, 255, 0.822);
+}
