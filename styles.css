@@ -35,7 +35,7 @@ body {
     height: 80px;
 }
 
-#btnSection>button {
+button {
     padding: 10px;
     border: none;
     background-color: rgba(0, 102, 255, 0.822);
@@ -45,6 +45,30 @@ body {
     font-weight: 700;
 }
 
-#btnSection>button:hover {
+button:hover {
     background-color: rgba(73, 146, 255, 0.822);
+}
+
+#formDiv {
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    left: 856px;
+    display: none;
+}
+
+#formBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.formBtn {
+    margin-top: 10px;
 }
